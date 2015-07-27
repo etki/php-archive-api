@@ -1,0 +1,20 @@
+{
+    "name": "etki/archive-api",
+    "description": "This package specifies archive objects API as i see it",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Etki",
+            "email": "etki@etki.name"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+        "Etki\\Specification\\Api\\Archive": "src/"
+      }
+    },
+    "require": {
+      "etki/streams-api": "~0.1.0"
+    }
+}
